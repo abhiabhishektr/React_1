@@ -77,3 +77,17 @@ every thing should be terminated />
    // After
    <div dangerouslySetInnerHTML={{ __html: "<p>This is HTML content</p>" }}></div>
    ```
+
+
+hooks 
+Other React hooks include:
+
+- `useEffect`: Manages side effects in functional components.
+- `useContext`: Accesses context within functional components.
+- `useReducer`: Alternative to `useState` for more complex state logic.
+- `useCallback`: Memoizes functions to prevent unnecessary re-renders.
+- `useMemo`: Memoizes values to optimize performance by caching expensive computations.
+- `useRef`: Creates a mutable ref object to persist values across renders.
+- `useLayoutEffect`: Similar to `useEffect`, but runs synchronously after all DOM mutations.
+- `useImperativeHandle`: Customizes the instance value that is exposed by a ref.
+- `useDebugValue`: Adds debugging information to custom hooks.
